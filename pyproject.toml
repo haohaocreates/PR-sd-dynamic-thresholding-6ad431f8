@@ -1,0 +1,14 @@
+[project]
+name = "sd-dynamic-thresholding"
+description = "Extension for StableSwarmUI, ComfyUI, and AUTOMATIC1111 Stable Diffusion WebUI that enables a way to use higher CFG Scales without color issues. This works by clamping latents between steps."
+version = "1.0.0"
+license = "LICENSE"
+
+[project.urls]
+Repository = "https://github.com/mcmonkeyprojects/sd-dynamic-thresholding"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "sd-dynamic-thresholding"
+Icon = ""
